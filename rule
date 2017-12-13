@@ -1,0 +1,111 @@
+all->.setVisibility(8)->.setVisibility(View.GONE)
+all->.setVisibility(0)->.setVisibility(View.VISIBLE)
+all->.setVisibility(4)->.setVisibility(View.INVISIBLE)
+all->BuildConfig.FLAVOR->""
+all->import com.urbandroid.lux.common.BuildConfig;-> 
+all->extends AsyncTask ->extends AsyncTask<Void,Void,Void>
+all->getSystemService("connectivity")->getSystemService(Context.CONNECTIVITY_SERVICE)
+all->getSystemService("notification")->getSystemService(Context.NOTIFICATION_SERVICE)
+all->getSystemService(NotificationCompatApi21.CATEGORY_ALARM)->getSystemService(Context.ALARM_SERVICE)
+all->getSystemService("alarm")->getSystemService(Context.ALARM_SERVICE)
+all->getSystemService(AbstractTwilightService.EXTRA_ACTIVITY)->getSystemService(Context.ACTIVITY_SERVICE)
+all->getSystemService("activity")->getSystemService(Context.ACTIVITY_SERVICE)
+all->getSystemService("phone")->getSystemService(Context.TELEPHONY_SERVICE)
+all->getSystemService("power")->getSystemService(Context.POWER_SERVICE)
+all->getSystemService("layout_inflater")->getSystemService(Context.LAYOUT_INFLATER_SERVICE)
+all->getSystemService("location")->getSystemService(Context.LOCATION_SERVICE)
+all->getSystemService("accessibility")->getSystemService(Context.ACCESSIBILITY_SERVICE)
+all->getSystemService(EXTRA_ACTIVITY)->getSystemService(Context.ACTIVITY_SERVICE)
+all->getSystemService("window")->getSystemService(Context.WINDOW_SERVICE)
+all->getInstalledPackages(AccessibilityNodeInfoCompat.ACTION_CLEAR_ACCESSIBILITY_FOCUS)->getInstalledPackages(PackageManager.GET_META_DATA)
+all->getInstalledPackages(128)->getInstalledPackages(PackageManager.GET_META_DATA)
+all->getInstalledApplications(AccessibilityNodeInfoCompat.ACTION_CLEAR_ACCESSIBILITY_FOCUS)->getInstalledPackages(PackageManager.GET_META_DATA)
+all->instance.get(7)->instance.get(Calendar.DAY_OF_WEEK)
+all->instance.add(7,->instance.add(Calendar.DAY_OF_WEEK,
+all->instance.get(12)->instance.get(Calendar.MINUTE)
+all->calendar.get(12)->calendar.get(Calendar.MINUTE)
+all->instance.set(12->instance.set(Calendar.MINUTE
+all->sunset.add(12->sunset.add(Calendar.MINUTE
+all->sunrise.add(12->sunrise.add(Calendar.MINUTE
+all->calendar.get(11)->calendar.get(Calendar.HOUR_OF_DAY)
+all->instance.get(11)->instance.get(Calendar.HOUR_OF_DAY)
+all->instance.set(11->instance.set(Calendar.HOUR_OF_DAY
+all->instance.add(11->instance.add(Calendar.HOUR_OF_DAY
+all->instance.set(13->instance.set(Calendar.MONTH
+all->calendar.set(5,->calendar.set(Calendar.DAY_OF_MONTH,
+all->calendar2.set(5,->calendar2.set(Calendar.DAY_OF_MONTH,
+all->instance.get(5)->instance.get(Calendar.DAY_OF_MONTH)
+all->calendar.get(5)->calendar.get(Calendar.DAY_OF_MONTH)
+all->calendar.set(2,->calendar.set(Calendar.MONTH,
+all->calendar2.set(2,->calendar2.set(Calendar.MONTH,
+all->instance2.set(2,->instance2.set(Calendar.MONTH,
+all->instance.get(2)->instance.get(Calendar.MONTH)
+all->calendar.get(2)->calendar.get(Calendar.MONTH)
+all->calendar.set(1,->calendar.set(Calendar.YEAR,
+all->calendar2.set(1,->calendar2.set(Calendar.YEAR,
+all->instance2.set(1,->instance2.set(Calendar.YEAR,
+all->instance.get(1)->instance.get(Calendar.YEAR)
+all->instance.add(6,->instance.add(Calendar.DAY_OF_YEAR,
+all->calendar.add(6,->calendar.add(Calendar.DAY_OF_YEAR,
+all->calendar2.add(6,->calendar2.add(Calendar.DAY_OF_YEAR,
+all->instance2.add(6,->instance2.add(Calendar.DAY_OF_YEAR,
+all->gregorianCalendar.get(15)->gregorianCalendar.get(Calendar.ZONE_OFFSET)
+all->gregorianCalendar.get(1)->gregorianCalendar.get(Calendar.YEAR)
+all->gregorianCalendar.get(2)->gregorianCalendar.get(Calendar.MONTH)
+all->gregorianCalendar.get(5)->gregorianCalendar.get(Calendar.DAY_OF_MONTH)
+all->gregorianCalendar.get(11)->gregorianCalendar.get(Calendar.HOUR_OF_DAY)
+all->gregorianCalendar.get(12)->gregorianCalendar.get(Calendar.MINUTE)
+all->gregorianCalendar.get(13)->gregorianCalendar.get(Calendar.SECOND)
+all->setIcon(17301543)->setIcon(android.R.drawable.ic_dialog_alert)
+all->findViewById(16908298)->findViewById(android.R.id.list)
+all->getSystemService("sensor")->getSystemService(Context.SENSOR_SERVICE)
+all->, 268435456)->, PendingIntent.FLAG_CANCEL_CURRENT)
+all->, 134217728)->, PendingIntent.FLAG_UPDATE_CURRENT)
+all->, 1).show();->, Toast.LENGTH_SHORT).show();
+all->, 17367055,->, android.R.layout.simple_list_item_single_choice,
+all->, 16908308,->, android.R.id.text1,
+all->, 17367056,->, android.R.layout.simple_list_item_multiple_choice,
+all->setDropDownViewResource(17367049)->setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+all->getVisibility() == 4->getVisibility() == View.INVISIBLE
+all->getVisibility() == 8->getVisibility() == View.GONE
+all->getVisibility() == 0->getVisibility() == View.VISIBLE
+all->setVisibility(8)->setVisibility(View.GONE)
+all->setVisibility(4)->setVisibility(View.INVISIBLE)
+all->setVisibility(0)->setVisibility(View.VISIBLE)
+all->setVisibility(z ? 0 : 8);->setVisibility(z ? View.VISIBLE : View.GONE);
+all->R.styleable.Theme_checkedTextViewStyle->PHMessageType.PUSHLINK_BUTTON_NOT_PRESSED
+all->Object arrayAdapter = new ArrayAdapter->ArrayAdapter arrayAdapter = new ArrayAdapter
+all->Parcelable bundle = new Bundle();->Bundle bundle = new Bundle();
+all->ViewParent viewParent = (ViewGroup)->ViewGroup viewParent = (ViewGroup)
+all->bool.booleanValue()->bool
+all->Integer.valueOf(i)->i
+all-> Object httpPost = new HttpPost-> HttpPost httpPost = new HttpPost
+all->setFlags(268435456)->setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+all->addFlags(268435456)->addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+all->gregorianCalendar.get(16)->gregorianCalendar.get(Calendar.DST_OFFSET)
+all-> Drawable stateListDrawable = new StateListDrawable-> StateListDrawable stateListDrawable = new StateListDrawable
+all->View button = new Button->Button button = new Button
+all->(17039360,->(android.R.string.cancel,
+all->Serializable linkedList = new LinkedList();->LinkedList linkedList = new LinkedList();
+all->Collection linkedList = new LinkedList();->LinkedList linkedList = new LinkedList();
+all->record.getId().longValue()->record.getId()
+all->Long.valueOf(j)->j
+all->Object hashSet = new HashSet();->Set hashSet = new HashSet();
+all->setContentView((int) ->setContentView(
+all-> View textView = new TextView-> TextView textView = new TextView
+all->SpinnerAdapter arrayAdapter2 = new ArrayAdapter->ArrayAdapter arrayAdapter2 = new ArrayAdapter
+all->getInstalledPackages(8)->getInstalledPackages(PackageManager.GET_PROVIDERS)
+all-> ObjectAdapter arrayObjectAdapter = new ArrayObjectAdapter-> ArrayObjectAdapter arrayObjectAdapter = new ArrayObjectAdapter
+all-> ObjectAdapter arrayObjectAdapter2 = new ArrayObjectAdapter-> ArrayObjectAdapter arrayObjectAdapter2 = new ArrayObjectAdapter
+all-> ObjectAdapter arrayObjectAdapter3 = new ArrayObjectAdapter-> ArrayObjectAdapter arrayObjectAdapter3 = new ArrayObjectAdapter
+all-> ObjectAdapter arrayObjectAdapter4 = new ArrayObjectAdapter-> ArrayObjectAdapter arrayObjectAdapter4 = new ArrayObjectAdapter
+all->SpinnerAdapter arrayAdapter = new ArrayAdapter->ArrayAdapter arrayAdapter = new ArrayAdapter
+all-> Reader bufferedReader = new BufferedReader-> BufferedReader bufferedReader = new BufferedReader
+all->Object stringWriter = new StringWriter->StringWriter stringWriter = new StringWriter
+all->Collection arrayList2 = new ArrayList->ArrayList arrayList2 = new ArrayList
+all->Collection arrayList = new ArrayList->ArrayList arrayList = new ArrayList
+all->Object boundedInMemoryStringCollector = new BoundedInMemoryStringCollector->BoundedInMemoryStringCollector boundedInMemoryStringCollector = new BoundedInMemoryStringCollector
+all->Object string = Secure.getString->String string = Secure.getString
+all->setScrollBarStyle(0);->setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+all->new AsyncTask()->new AsyncTask<Void,Void,Void>()
+all-> OutputStream byteArrayOutputStream = new ByteArrayOutputStream();-> ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
